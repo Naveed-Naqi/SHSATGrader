@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/Users/naveednaqi/.virtualenvs/cv-py3/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.terminal.activateEnvironment": true,
+    "python.linting.pylintArgs": ["--extension-pkg-whitelist=cv2"]
+}
