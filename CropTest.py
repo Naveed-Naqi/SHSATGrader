@@ -13,5 +13,5 @@ def crop(image_path, coords, saved_location):
  
  
 if __name__ == '__main__':
-    image = 'test_image.png'
+    image = 'real_test_image.png'
     crop(image, (88, 26, 533, 754), 'cropped.png')

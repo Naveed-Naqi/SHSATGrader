@@ -10,4 +10,3 @@ a = a.transpose()
 
 for x in a:
     print(x, sep=" ")
-
