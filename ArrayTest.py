@@ -1,12 +1,17 @@
-import numpy as np
+test = [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
 
-rows = 3
-cols = 2
+test2 = test[1:][2:]
 
-test_array = [1,2,3,4,5,6]
+print(test2)
 
-a = np.array(test_array).reshape(3,2)
-a = a.transpose()
+"""
 
-for x in a:
-    print(x, sep=" ")
+Count the number of 1s in the matrix 
+
+if decimal is in col 0: divide it the answer by the number of 1s in the matrix
+
+if decimal is in col 1: divide it the answer by the (number of 1s in the matrix) - 1
+
+if decimal is in col 2: divide it the answer by the (number of 1s in the matrix) - 2
+
+"""

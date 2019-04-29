@@ -1,11 +1,11 @@
 import cv2
 
-image = cv2.imread('real_test_image.jpg')
+image = cv2.imread('real_test_image.png')
 
 #First indices control the length of the cropped section
 #Second indices control the width of the cropped section
 
-ela_first_col = image[1400:2800, 500:1500]
+ela_first_col = image[180:460, 970:1130]
 ela_second_col = image[1400:2800, 1500:2500]
 ela_third_col = image[1400:2800, 2500:3500]
 ela_fourth_col = image[1400:2800, 3500:4500]
@@ -24,7 +24,7 @@ math_fourth_col = image[4300:5500, 3500:4500]
 
 cv2.imshow("ela_first col", ela_first_col)
 cv2.waitKey(0)
-
+"""
 cv2.imshow("ela_second col", ela_second_col)
 cv2.waitKey(0)
 
@@ -60,3 +60,4 @@ cv2.waitKey(0)
 
 cv2.imshow("fifth grid in", fifth_grid_in)
 cv2.waitKey(0)
+"""
