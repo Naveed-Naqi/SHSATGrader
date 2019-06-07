@@ -1,4 +1,4 @@
-##Table of Contents
+## Table of Contents
 - [Test Grader](#TestGrader)
 - [Motivation](#Motivation)
 - [Build Status](#BuildStatus)
