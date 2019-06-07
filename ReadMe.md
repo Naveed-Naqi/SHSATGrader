@@ -20,8 +20,7 @@ You can make it read any rectangular region of an image.
 
 Perhaps even further in the future, I can move the entire library to C++.
 
-
-
+## Built Using
 - Python 3.7
 - OpenCV 3
 
