@@ -1,6 +1,6 @@
 ##Table of Contents
 - [`Test Grader`](#TestGrader)
-- Motivation(#TestGrader)
+- [Motivation](#TestGrader)
 - [`Test Grader`](#TestGrader)
 - [`Test Grader`](#TestGrader)
 
