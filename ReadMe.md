@@ -1,3 +1,6 @@
+- [`clasp list`](#Test Grader)
+
+
 ## Test Grader
 This project reads multiple choice questions for the SHSAT in the answer sheet of the provided.
 The questions get transformed into a matrix, where 0s indicate the bubble is not filled and 1s indicate the bubble is filled.
